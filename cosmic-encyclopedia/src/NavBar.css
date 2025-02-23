@@ -1,0 +1,22 @@
+.navbar{
+    background: #0a0a2a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a{
+    color: cyan;
+    font-weight: bold;
+}
