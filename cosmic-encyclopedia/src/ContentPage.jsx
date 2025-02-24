@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import data from "./data";
+import NavigateBackButton from "./NavigateBackButton";
 import "./ContentPage.css";
 
 const ContentPage = () => {
@@ -12,6 +13,7 @@ const ContentPage = () => {
 
     return(
         <div className="content-page">
+            <NavigateBackButton />
             <h1>{object.name}</h1>
             <img src={object.image} alt={object.name} className="object-image" />
             <p>{object.description}</p>

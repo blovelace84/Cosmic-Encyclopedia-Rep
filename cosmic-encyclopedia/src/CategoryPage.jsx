@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import NavigateBackButton from "./NavigateBackButton";
 import data from "./data";
 
 const CategoryPage = ({ category }) => {
@@ -9,6 +10,7 @@ const CategoryPage = ({ category }) => {
 
   return (
     <div className="category-page">
+      <NavigateBackButton />
       <h1>{category.charAt(0).toUpperCase() + category.slice(1)}</h1>
       <ul>
         {filteredObjects.map(object => (
