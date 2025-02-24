@@ -13,7 +13,7 @@ const ContentPage = () => {
     return(
         <div className="content-page">
             <h1>{object.name}</h1>
-            <img src={object.name} alt={object.name} className="object-image" />
+            <img src={object.image} alt={object.name} className="object-image" />
             <p>{object.description}</p>
         </div>
     );
