@@ -2,20 +2,20 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter  } from "react-ro
 import NavBar from "./NavBar";
 import HomePage from "./HomePage";
 import ContentPage from "./ContentPage";
+import data from "./data";
 
 function App() {
   return (
     <BrowserRouter>
         <NavBar />
+        <HomePage />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/planets" element={<ContentPage category="planets" />} />
-          <Route path="/stars" element={<ContentPage category="stars" />} />
-          <Route path="/galaxies" element={<ContentPage category="galaxies" />} />
+          <Route path="/content/:id" element={<ContentPage />} />
         </Routes>
     </BrowserRouter>
   
   );
 }
 
-export default App
+export default App;

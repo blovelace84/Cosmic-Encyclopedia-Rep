@@ -1,0 +1,31 @@
+.home-page{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background: linear-gradient(to bottom, #020024, #090979, #000);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page h1{
+    font-size: 2.5rem;
+    animation: glow 2s infinite alternate;
+}
+
+.home-page p{
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+@keyframes glow {
+    from{
+        text-shadow: 0 0 10px cyan;
+    }
+    to{
+        text-shadow: 0 0 20px cyan, 0 0 30px cyan;
+    }
+}
