@@ -13,7 +13,7 @@ const data = [
     {
         id: "sun",
         name: "Sun",
-        descrtiption: "The star at the center of our solar system. It provides the light and heat that sustains life on Earth.",
+        description: "The star at the center of our solar system. It provides the light and heat that sustains life on Earth.",
         image: sunImg,
         category: "stars"
     },

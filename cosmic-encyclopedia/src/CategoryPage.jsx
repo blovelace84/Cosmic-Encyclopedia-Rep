@@ -3,6 +3,9 @@ import data from "./data";
 
 const CategoryPage = ({ category }) => {
   const filteredObjects = data.filter(item => item.category === category);
+  if(filteredObjects.length === 0){
+    return <h2>No objects found in this category.</h2>;
+  }
 
   return (
     <div className="category-page">
