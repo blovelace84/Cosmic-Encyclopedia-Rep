@@ -1,0 +1,26 @@
+.category-page {
+    text-align: center;
+    color: white;
+    padding: 50px;
+  }
+  
+  .category-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-page li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .category-page a {
+    text-decoration: none;
+    color: cyan;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .category-page a:hover {
+    color: yellow;
+  }
+  
